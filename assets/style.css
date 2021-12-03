@@ -1,6 +1,8 @@
 :root {
-    --accent: #2D9CDB;
-    --grey: #444;
+    --background: #FAFAF8
+    --accent: #5E8E9C;
+    --grey: #5F5553;
+    --h1: #787A55;
 }
 
 html {
