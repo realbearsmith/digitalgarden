@@ -2,4 +2,7 @@
 title: About these notes
 ---
 # About these Notes
-These are some fake notes. Feel free to poke around. You may spot an [[easter egg]]  or two! Also, I like [[food]].
+
+This is the main space I do my thinking[^1] and manage my [[Digital Garden]]
+
+[^1]: At least my public thinking, anyhow. Even the early thoughts presented here are the product of some prior private study and consideration.
