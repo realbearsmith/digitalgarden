@@ -1,8 +1,7 @@
 :root {
-    --background: #FAFAF8;
+    --background-color: #FAFAF8;
     --accent: #5E8E9C;
     --grey: #5F5553;
-    --h1: #787A55;
 }
 
 html {
@@ -83,7 +82,10 @@ h1, h2, h3, h4, h5 {
   line-height: 1.15;
 }
 
-h1 {font-size: 3.052em;}
+h1 {font-size: 3.052em;
+    font-weight: bold;
+    color: #787A55;
+}
 
 h2 {font-size: 2.441em;}
 
