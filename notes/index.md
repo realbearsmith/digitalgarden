@@ -5,7 +5,7 @@ thumbnail: /images/uploads/andem-logo.png
 ---
 # About these Notes
 
-This is the main space I do my thinking[^1] and manage my \[[Digital Garden]]
+This is the main space I do my thinking[^1] and manage my \[[Digital Garden]] blah blah blah
 
 ![](/images/uploads/sistemic-logo.png)
 
