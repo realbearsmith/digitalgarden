@@ -19,6 +19,7 @@ collections:
           name: "date",
           widget: "datetime",
           format: "MMM Do YYYY",
+          required: false,
         }
       - { label: "Tags", name: "tags", widget: "list", required: false }
       - {
