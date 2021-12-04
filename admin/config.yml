@@ -16,14 +16,14 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - {
           label: "Created",
-          name: "date",
+          name: "created",
           widget: "datetime",
           format: "Created",
           required: false,
         }
       - {
           label: "Last Updated",
-          name: "date",
+          name: "updated",
           widget: "datetime",
           format: "Last Modified",
           required: false,
