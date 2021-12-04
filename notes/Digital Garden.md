@@ -1,3 +1,7 @@
+---
+title: Digital Gardens
+date: Dec 3rd 2021
+---
 # Digital Gardens
 
 ## What's a Digital Garden?
