@@ -18,14 +18,14 @@ collections:
           label: "Created",
           name: "created",
           widget: "datetime",
-          format: "Created",
+          format: "YYYY-MM-DD",
           required: false,
         }
       - {
           label: "Last Updated",
           name: "updated",
           widget: "datetime",
-          format: "Last Modified",
+          format: "YYYY-MM-DD",
           required: false,
         }
       - { label: "Tags", name: "tags", widget: "list", required: false }
