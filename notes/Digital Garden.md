@@ -1,6 +1,5 @@
 ---
 title: Digital Gardens
-date: 2021-12-3
 ---
 # Digital Gardens
 
