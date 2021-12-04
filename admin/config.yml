@@ -15,17 +15,17 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "notes" }
       - { label: "Title", name: "title", widget: "string" }
       - {
-          label: "Published",
+          label: "Created",
           name: "date",
           widget: "datetime",
-          format: "MMM Do YYYY",
+          format: "Created",
           required: false,
         }
       - {
           label: "Last Updated",
           name: "date",
           widget: "datetime",
-          format: "MMM Do YYYY",
+          format: "Last Modified",
           required: false,
         }
       - { label: "Tags", name: "tags", widget: "list", required: false }
