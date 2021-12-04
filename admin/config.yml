@@ -15,7 +15,14 @@ collections:
       - { label: "Layout", name: "layout", widget: "hidden", default: "notes" }
       - { label: "Title", name: "title", widget: "string" }
       - {
-          label: "Publish Date",
+          label: "Published",
+          name: "date",
+          widget: "datetime",
+          format: "MMM Do YYYY",
+          required: false,
+        }
+      - {
+          label: "Last Updated",
           name: "date",
           widget: "datetime",
           format: "MMM Do YYYY",
