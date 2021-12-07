@@ -10,6 +10,5 @@ format: Audiobook
 reading_start_date: 2021-09-20
 reading_end_date: 2021-09-27
 tags:
-  - reading
 ---
 
