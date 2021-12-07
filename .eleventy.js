@@ -37,6 +37,17 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('admin');
     eleventyConfig.setUseGitIgnore(false);
 
+    eleventyConfig.addCollection("reading", function (collection) {
+        return collection
+            .getAll()
+            .filter(function (item) {
+                return item.data.content_type == "book";
+            })
+            .sort(function (a, b) {
+                return b.date - a.date;
+            });
+    });
+
     return {
         dir: {
             input: "./",

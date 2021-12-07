@@ -1,0 +1,13 @@
+---
+# layout: layouts/home.njk
+permalink: /reading/
+# eleventyNavigation:
+#  key: Reading
+#  order: 2
+---
+<div class="content-main container">
+<h1>Reading</h1>
+
+{% set bookslist = collections.reading %}
+{% include "bookslist.njk" %}
+</div>
