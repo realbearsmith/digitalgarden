@@ -52,6 +52,10 @@ module.exports = function (eleventyConfig) {
         return DateTime.fromJSDate(dateObj).toFormat('MMMM Do, YYYY')
     })
 
+    eleventyConfig.addFilter("readableDate", dateObj => {
+        return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('MMMM Do, YYYY');
+    });
+
     return {
         dir: {
             input: "./",
