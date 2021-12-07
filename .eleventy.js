@@ -22,6 +22,8 @@ module.exports = function (eleventyConfig) {
             })
         })
 
+    const { DateTime } = require("luxon");
+
     eleventyConfig.addFilter("markdownify", string => {
         return md.render(string)
     })
