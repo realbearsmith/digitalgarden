@@ -1,7 +1,4 @@
 ---
-layout: "book"
-content_type: "book"
-
 title: Facing the Mountain
 author: Daniel James Brown
 date: 2021-12-07
