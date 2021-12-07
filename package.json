@@ -23,5 +23,8 @@
     "markdown-it-attrs": "^4.1.0",
     "markdown-it-footnote": "^3.0.3",
     "title-case": "^3.0.3"
+  },
+  "dependencies": {
+    "luxon": "^2.1.1"
   }
 }
