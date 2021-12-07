@@ -48,6 +48,10 @@ module.exports = function (eleventyConfig) {
             });
     });
 
+    eleventyConfig.addFilter('htmlDateString', dateObj => {
+        return DateTime.fromJSDate(dateObj).toFormat('MMMM Do, YYYY')
+    })
+
     return {
         dir: {
             input: "./",
