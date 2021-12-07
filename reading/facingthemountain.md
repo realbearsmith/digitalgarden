@@ -1,5 +1,5 @@
 ---
-layout: "book",
+layout: "book"
 content_type: "book"
 
 title: Facing the Mountain
