@@ -4,22 +4,8 @@ layout: default
 
 <head>
     <h1>{{ title }}</h1>
-
-    <script type = "text/javascript">
-        if (created.isValid() === true) {
-            document.write('<p>Created: <time datetime="{{ created | htmlDateString }}">{{ created | readableDate }}</time></p>')
-        } else {
-            document.write("")
-        }
-    </script>
-
-    <script type = "text/javascript">
-        if (updated.isValid() === true) {
-            document.write('<p>Updated: <time datetime="{{ updated | htmlDateString }}">{{ updated | readableDate }}</time></p>')
-        } else {
-            document.write("")
-        }
-    </script>
+    {{ createddate }}
+    {{ updateddate }}
 </head>
 
 <article>
