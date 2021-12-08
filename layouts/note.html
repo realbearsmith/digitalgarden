@@ -3,8 +3,8 @@ layout: default
 ---
 
 <h1>{{ title }}</h1>
-<time datetime="{{ created.date | htmlDateString }}">{{ created.date | readableDate }}</time>
-<time datetime="{{ updated.date | htmlDateString }}">{{ updated.date | readableDate }}</time>
+<p> Created: <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></p>
+<p> Updated: <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></p>
 
 <article>
     {{content}}
