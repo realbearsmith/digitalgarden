@@ -4,8 +4,17 @@ layout: default
 
 <h1>{{ title }}</h1>
 <script>
-created.isValid() ? <p>Created: <time datetime="{{ created | htmlDateString }}">{{ created | readableDate }}</time></p> : "";
-updated.isValid() ? <p>Updated: <time datetime="{{ updated | htmlDateString }}">{{ updated | readableDate }}</time></p> : "";
+if (created.isValid()) {
+   <p>Created: <time datetime="{{ created | htmlDateString }}">{{ created | readableDate }}</time></p>
+} else {
+  ""
+};
+
+if (updated.isValid()) {
+   <p>Created: <time datetime="{{ updated | htmlDateString }}">{{ updated | readableDate }}</time></p>
+} else {
+  ""
+}
 </script>
 
 <article>
