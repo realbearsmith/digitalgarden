@@ -11,7 +11,7 @@ if (created.isValid()) {
 };
 
 if (updated.isValid()) {
-   <p>Created: <time datetime="{{ updated | htmlDateString }}">{{ updated | readableDate }}</time></p>
+   <p>Updated: <time datetime="{{ updated | htmlDateString }}">{{ updated | readableDate }}</time></p>
 } else {
   ""
 }
