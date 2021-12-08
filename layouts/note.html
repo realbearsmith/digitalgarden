@@ -5,13 +5,13 @@ layout: default
 <h1>{{ title }}</h1>
 <script type = "text/javascript">
 if (created.isValid()) {
-   document.write("<p>Created: <time datetime="{{ created | htmlDateString }}">{{ created | readableDate }}</time></p>")
+   document.write('<p>Created: <time datetime="{{ created | htmlDateString }}">{{ created | readableDate }}</time></p>')
 } else {
    document.write("")
 };
 
 if (updated.isValid()) {
-   document.write("<p>Updated: <time datetime="{{ updated | htmlDateString }}">{{ updated | readableDate }}</time></p>")
+   document.write('<p>Updated: <time datetime="{{ updated | htmlDateString }}">{{ updated | readableDate }}</time></p>')
 } else {
    document.write("")
 }
