@@ -51,11 +51,11 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.addFilter('htmlDateString', dateObj => {
-        return DateTime.fromJSDate(dateObj).toFormat('YYYY-MM-DD')
+        return DateTime.fromJSDate(dateObj).toFormat('YYYY-LL-DD')
     })
 
     eleventyConfig.addFilter("readableDate", dateObj => {
-        return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('MMMM Do, YYYY');
+        return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('LLLL Do, YYYY');
     });
 
     return {
