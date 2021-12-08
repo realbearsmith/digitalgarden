@@ -58,6 +58,9 @@ module.exports = function (eleventyConfig) {
         return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('DDD');
     });
 
+    const createddate = created.isValid() ? <p>Created: <time datetime="{{ created | htmlDateString }}">{{ created | readableDate }}</time></p> : "";
+    const updateddate = updated.isValid() ? <p>Created: <time datetime="{{ updated | htmlDateString }}">{{ updated | readableDate }}</time></p> : "";
+
     return {
         dir: {
             input: "./",
