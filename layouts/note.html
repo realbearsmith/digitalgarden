@@ -4,6 +4,12 @@ layout: default
 
 <head>
     <h1>{{ title }}</h1>
+    {% if created | isValidDate -%}
+    <p>Created: …</p>
+    {% end -%}
+    {% if updated | isValidDate -%}
+    <p>Updated: …</p>
+    {% end -%}
 </head>
 
 <article>
