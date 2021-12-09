@@ -3,11 +3,11 @@ layout: default
 ---
 
 <h1>{{ title }}</h1>
-{% if created !="" %}
+{% if created !="Invalid DateTime" %}
 <p>Created: {{ created | readableDate }}</p>
 {% endif %}
 
-{% if updated !="" %}
+{% if updated !="Invalid DateTime" %}
 <p>Updated: {{ updated | readableDate}}</p>
 {% endif %}
 
