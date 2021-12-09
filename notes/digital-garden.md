@@ -22,22 +22,22 @@ To be honest, there's probably no way for me to put it better than Maggie Applet
 
 
 
-* While blogs are organized chronologically, digital gardens are organized topographically. They use bi-directional links to connect different notes based on contextual themes.
+* While blogs are organized chronologically, **digital gardens are organized topographically**. They use bi-directional links to connect different notes based on contextual themes.
 
 
-* While blog posts tend to be written once and likely not updated afterward, garden notes are consistently revisited and grown over time.
+* While blog posts tend to be written once and likely not updated afterward, **garden notes are consistently revisited and grown over time**.
 
 
-* Garden notes are intentionally imperfect. They have to grow over time, so the expectation is they won't be fully fleshed out. Appleton calls them "*the perfect balance of chaos and cultivation*," with *chaos* being streams like social media/private notes and *cultivation* being completed products like books and articles.
+* **Garden notes are intentionally imperfect**. They have to grow over time, so the expectation is they won't be fully fleshed out. Appleton calls them "*the perfect balance of chaos and cultivation*," with *chaos* being streams like social media/private notes and *cultivation* being completed products like books and articles.
 
 
-* Gardens are experimental; the heterogeneity of gardeners and their gardens results in unique configurations of thoughts, even if the content is the same. To this end, the very structure of a digital garden—its HTML structure, CSS styling, etc—is likely to change over time. Compare this to the likely "set it and forget it" layout of the modern blog.
+* **Gardens are experimental**; the heterogeneity of gardeners and their gardens results in unique configurations of thoughts, even if the content is the same. To this end, the very structure of a digital garden—its HTML structure, CSS styling, etc—is likely to change over time. Compare this to the likely "set it and forget it" layout of the modern blog.
 
 
-* Digital gardens are content-diverse. They're more likely than blogs to contain a variety of content formats, from podcasts to code snippets.
+* **Digital gardens are content-diverse**. They're more likely than blogs to contain a variety of content formats, from podcasts to code snippets.
 
 
-* Gardens prioritize individual ownership. While it's hard to *truly* own a space of the internet in Web 2.0, digital gardens intentionally avoid storing thoughts on the servers of modern social media giants. This ensures that after the social media factory closes down and is demolished to make space for a competitor, the digital garden continues to grow.
+* **Gardens prioritize individual ownership**. While it's hard to *truly* own a space of the internet in Web 2.0, digital gardens intentionally avoid storing thoughts on the servers of modern social media giants. This ensures that after the social media factory closes down and is demolished to make space for a competitor, the digital garden continues to grow.
 
 
 
