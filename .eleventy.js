@@ -48,7 +48,7 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.addFilter("isValidDate", (date) => {
-        date !== "" && DateTime.fromJSDate(date).isValid()
+        date !== "" && DateTime.fromJSDate(date).isValid
     });
 
     return {
