@@ -42,14 +42,14 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addFilter('htmlDateString', dateObj => {
         return DateTime.fromJSDate(dateObj).toFormat('YYYY-LL-DD')
-    })
+    });
 
     eleventyConfig.addFilter("readableDate", dateObj => {
         return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('DDD');
     });
 
     eleventyConfig.addFilter("isValidDate", (date) => {
-        date !== "" && DateTime.fromJSDate(dateObj, { zone: 'utc' }).isValid()
+        date !== "" && DateTime.fromJSDate(dateObj).isValid()
     });
 
     return {
