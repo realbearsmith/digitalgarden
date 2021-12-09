@@ -40,7 +40,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.setUseGitIgnore(false);
 
     eleventyConfig.addFilter("isValidDate", date => {
-        date !== ""
+        date !== "" && DateTime.fromJSDate(date).isValid
     });
 
     eleventyConfig.addFilter('htmlDateString', dateObj => {
