@@ -163,8 +163,10 @@ small {font-size: 0.8em;}
 a[href^="//"]:after, 
 a[href^="http://"]:after, 
 a[href^="https://"]:after {
-  content: url(https://raw.githubusercontent.com/realbearsmith/digitalgarden/main/assets/externallink.png);
-  margin: 0 0 0 5px;
-  width: 50%;
-  height: auto;
+  background-image: url(https://raw.githubusercontent.com/realbearsmith/digitalgarden/main/assets/externallink.png);
+  background-size: 10px 10px;
+  display: inline-block;
+  width: 10px; 
+  height: 10px;
+  content:"";
 }
