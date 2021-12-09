@@ -164,5 +164,5 @@ a[href^="//"]:after,
 a[href^="http://"]:after, 
 a[href^="https://"]:after {
   content: url(https://raw.githubusercontent.com/realbearsmith/digitalgarden/main/assets/externallink.png);
-  margin: 0 0 0 5px;
+  margin: 5px 5px 5px 10px;
 }
