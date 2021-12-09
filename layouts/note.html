@@ -4,12 +4,14 @@ layout: default
 
 <head>
     <h1>{{ title }}</h1>
-    {% if created | isValidDate %}
+    <p>Created: {{created | isValidDate}}</p>
+    <p>Updated: {{updated | isValidDate}}</p>
+    <!--{% if created | isValidDate %}
     <p>Created: <time datetime="{{ created | htmlDateString }}"></p>
     {% endif %}
     {% if updated | isValidDate %}
     <p>Updated: <time datetime="{{ updated | htmlDateString }}"></p>
-    {% endif %}
+    {% endif %} -->
 </head>
 
 <article>
