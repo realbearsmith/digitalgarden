@@ -6,7 +6,7 @@ created: 2021-12-06
 updated: 2021-12-08
 thumbnail: ""
 ---
-This is the main space I do my \[[publicthinking|thinking in public]][^1] and manage my \[[digitalgarden|Digital Garden]].
+This is the main space I do my \[[thinking-in-public|thinking in public]][^1] and manage my \[[digital-garden|Digital Garden]].
 
 You can think about this less as a blog and more as a personal wiki or collection of developing thoughts. The goal here is networked thought;[^2] to easily connect disparate thoughts to allow for a level of serendipity that isn't found in many blogs.
 
