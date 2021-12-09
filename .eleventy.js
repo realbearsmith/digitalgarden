@@ -39,8 +39,8 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('admin');
     eleventyConfig.setUseGitIgnore(false);
 
-    eleventyConfig.addFilter("isValidDate", dateObj => {
-        dateObj !== "" && DateTime.fromJSDate(dateObj).isValid
+    eleventyConfig.addFilter("isValidDate", date => {
+        date !== "" && DateTime.fromJSDate(date).isValid
     });
 
     eleventyConfig.addFilter('htmlDateString', dateObj => {
