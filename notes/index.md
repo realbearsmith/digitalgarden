@@ -12,7 +12,7 @@ You can think about this less as a blog and more as a personal wiki or collectio
 
 Because there's no index to navigate by, you have to get started by following one of the internal links on this page. If you're not sure which to click, check out \[[topofmind|What's  Top of Mind]] for some good starting points.
 
-Have any thoughts? Feel free to reach out [by email](jared@bearlythinking.com) or [on Twitter](https://twitter.com/messages/compose?recipient_id=431312709)
+Have any thoughts? Feel free to reach out [by email](mailto:jared@bearlythinking.com) or [on Twitter](https://twitter.com/messages/compose?recipient_id=431312709)
 
 [^1]: At least my public thinking, anyhow. Even the early thoughts presented here are the product of some prior private study and consideration.
 
