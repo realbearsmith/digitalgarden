@@ -39,16 +39,16 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('admin');
     eleventyConfig.setUseGitIgnore(false);
 
+    eleventyConfig.addFilter("isValidDate", dateObj => {
+        dateObj !== "" && DateTime.fromJSDate(dateObj).isValid
+    });
+
     eleventyConfig.addFilter('htmlDateString', dateObj => {
         return DateTime.fromJSDate(dateObj).toFormat('YYYY-LL-DD')
     });
 
     eleventyConfig.addFilter("readableDate", dateObj => {
         return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('DDD');
-    });
-
-    eleventyConfig.addFilter("isValidDate", dateObj => {
-        dateObj !== "" && DateTime.fromJSDate(dateObj).isValid
     });
 
     return {
