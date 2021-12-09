@@ -2,14 +2,15 @@
 layout: default
 ---
 
-<h1>{{ title }}</h1>
-<p>{{ created }}</p>
-<!--{% if created | isValidDate %}-->
-<p>Created: <time datetime="{{ created | htmlDateString }}"></p>
-<!--{% endif %}-->
-<!--{% if updated | isValidDate %}-->
-<p>Updated: <time datetime="{{ updated | htmlDateString }}"></p>
-<!--{% endif %}-->
+<head>
+    <h1>{{ title }}</h1>
+    <!--{% if created | isValidDate %}-->
+    <p>Created: <time datetime="{{ created | htmlDateString }}"></time></p>
+    <!--{% endif %}-->
+    <!--{% if updated | isValidDate %}-->
+    <p>Updated: <time datetime="{{ updated | htmlDateString }}"></time></p>
+    <!--{% endif %}-->
+</head>
 
 <article>
     {{content}}
