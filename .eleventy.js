@@ -23,7 +23,6 @@ module.exports = function (eleventyConfig) {
         })
 
     const { DateTime } = require("luxon");
-    const { fromISO } = require("luxon");
 
     eleventyConfig.addFilter("markdownify", string => {
         return md.render(string)
@@ -60,7 +59,7 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.addFilter("isValidDate", (date) => {
-        date !== "" && fromISO(date).isValid()
+        date !== "" && DateTime.fromJSDate(dateObj).isValid()
     });
 
     return {
