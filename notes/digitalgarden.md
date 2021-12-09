@@ -1,5 +1,8 @@
 ---
+layout: note
 title: Digital Gardens
+created: 2021-12-06
+updated: ""
 ---
 ## What's a Digital Garden?
 
