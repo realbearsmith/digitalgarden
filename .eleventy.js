@@ -23,7 +23,6 @@ module.exports = function (eleventyConfig) {
         })
 
     const { DateTime } = require("luxon");
-    const { fromISO } = require("luxon");
 
     eleventyConfig.addFilter("markdownify", string => {
         return md.render(string)
@@ -48,8 +47,8 @@ module.exports = function (eleventyConfig) {
         return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('DDD');
     });
 
-    eleventyConfig.addFilter("isValidDate", (dateObj) => {
-        dateObj !== "" && DateTime.fromJSDate(dateObj).isValid()
+    eleventyConfig.addFilter("isValidDate", (date) => {
+        date !== "" && DateTime.fromJSDate(date).isValid()
     });
 
     return {
