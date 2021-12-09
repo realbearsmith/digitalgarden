@@ -8,7 +8,7 @@ thumbnail: ""
 ---
 This is the main space I do my \[[publicthinking|thinking in public]][^1] and manage my \[[digitalgarden|Digital Garden]].
 
-You can think about this less as a blog and more as a personal wiki or collection of developing thoughts. The goal here is networked thought[^2]; to easily connect disparate thoughts to allow for a level of serendipity that isn't found in many blogs.
+You can think about this less as a blog and more as a personal wiki or collection of developing thoughts. The goal here is networked thought;[^2] to easily connect disparate thoughts to allow for a level of serendipity that isn't found in many blogs.
 
 Because there's no index to navigate by, you have to get started by following one of the internal links on this page. If you're not sure which to click, check out \[[topofmind|What's  Top of Mind]] for some good starting points.
 
