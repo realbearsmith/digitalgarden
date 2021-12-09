@@ -47,8 +47,8 @@ module.exports = function (eleventyConfig) {
         return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('DDD');
     });
 
-    eleventyConfig.addFilter("isValidDate", (date) => {
-        date !== "" && DateTime.fromISO(date).isValid
+    eleventyConfig.addFilter("isValidDate", (dateObj) => {
+        dateObj !== "" && DateTime.fromJSDate(dateObj).isValid
     });
 
     return {
