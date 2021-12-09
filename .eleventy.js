@@ -24,7 +24,6 @@ module.exports = function (eleventyConfig) {
 
     const { DateTime } = require("luxon");
     /* const { fromISO } = require("luxon"); */
-    const dt = DateTime.fromISO(date);
 
     eleventyConfig.addFilter("markdownify", string => {
         return md.render(string)
@@ -41,17 +40,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('admin');
     eleventyConfig.setUseGitIgnore(false);
 
-    eleventyConfig.addCollection("reading", function (collection) {
-        return collection
-            .getAll()
-            .filter(function (item) {
-                return item.data.content_type == "book";
-            })
-            .sort(function (a, b) {
-                return b.date - a.date;
-            });
-    });
-
     eleventyConfig.addFilter('htmlDateString', dateObj => {
         return DateTime.fromJSDate(dateObj).toFormat('YYYY-LL-DD')
     })
@@ -61,7 +49,7 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.addFilter("isValidDate", (date) => {
-        date !== "" && dt.isValid()
+        date !== "" && DateTime.fromJSDate(dateObj).toFormat('YYYY-LL-DD').isValid()
     });
 
     return {
