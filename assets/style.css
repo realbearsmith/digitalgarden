@@ -160,11 +160,9 @@ small {font-size: 0.8em;}
   border-radius: 50%;
 }
 
-p { font-size: 20px; line-height: 24px;}
-
 a[href^="//"]:after, 
 a[href^="http://"]:after, 
 a[href^="https://"]:after {
-  content: url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png);
+  content: url(assets/externallink.png;);
   margin: 0 0 0 5px;
 }
