@@ -4,10 +4,10 @@ layout: default
 
 <head>
     <h1>{{ title }}</h1>
-    {% if isValidDate | created === "true" %}
+    {% if created | isValidDate === "true" %}
     <p>Created: <time datetime="{{ created | htmlDateString }}"></p>
     {% endif %}
-    {% if isValidDate | updated === "true" %}
+    {% if updated | isValidDate === "true" %}
     <p>Updated: <time datetime="{{ updated | htmlDateString }}"></p>
     {% endif %}
 </head>
