@@ -24,7 +24,7 @@ module.exports = function (eleventyConfig) {
 
     const { DateTime } = require("luxon");
     /* const { fromISO } = require("luxon"); */
-    const dt = luxon.DateTime.fromISO(date);
+    const dt = DateTime.fromISO(date);
 
     eleventyConfig.addFilter("markdownify", string => {
         return md.render(string)
