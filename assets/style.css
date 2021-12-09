@@ -163,6 +163,6 @@ small {font-size: 0.8em;}
 a[href^="//"]:after, 
 a[href^="http://"]:after, 
 a[href^="https://"]:after {
-  content: url(assets/externallink.png;);
+  content: url(assets/externallink.png);
   margin: 0 0 0 5px;
 }
