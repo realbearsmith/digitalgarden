@@ -14,7 +14,7 @@ Humans don't think in rows and columns. But our entire society has been built on
 
 The digital garden is an attempt to change that. It reintroduces the organic matter bleached away by our current platforms and encourages the writer to *get dirty*. While modern writing platforms focus more and more on removing obstacles to writing,[^1] the digital garden is an attempt to seek out new obstacles and learn new things in overcoming them.
 
-Maybe that sounds pretentious, but it helps me think. And at the end of the day, this space is for me; not you.[^2}
+Maybe that sounds pretentious, but it helps me think. And at the end of the day, this space is for me; not you.[^2]
 
 ## How's it different from a blog?
 
