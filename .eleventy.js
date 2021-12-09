@@ -49,7 +49,7 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.addFilter("isValidDate", (date) => {
-        date !== "" /*&& fromISO(date).isValid()*/
+        date !== "" && DateTime.fromJSDate(dateObj, { zone: 'utc' }).isValid()
     });
 
     return {
