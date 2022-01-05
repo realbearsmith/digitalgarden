@@ -1,5 +1,5 @@
 [[redirects]]
   from = "https://bearlythinking.com/notes"
-  to = "https://publish.obsidian.md/bearlythinking/:splat"
+  to = "https://publish.obsidian.md/serve?url=bearlythinking.com/notes/:splat"
   status = 200
   force = true
