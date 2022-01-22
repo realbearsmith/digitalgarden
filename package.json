@@ -4,7 +4,7 @@
   "description": "A starter site for building a mind garden in eleventy.",
   "scripts": {
     "start": "eleventy --serve --quiet",
-    "compile": "eleventy && echo '/* /index.html 200' | cat >build/_redirects "
+    "compile": "eleventy"
   },
   "repository": {
     "type": "git",
