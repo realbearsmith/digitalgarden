@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "A starter site for building a mind garden in eleventy.",
   "scripts": {
-    "start": "eleventy --serve --quiet && echo '/* /index.html 200' | cat >build/_redirects ",
-    "compile": "eleventy"
+    "start": "eleventy --serve --quiet",
+    "compile": "eleventy && echo '/* /index.html 200' | cat >build/_redirects "
   },
   "repository": {
     "type": "git",
