@@ -5,12 +5,18 @@
   force = true
   
 [[redirects]]
+  from = "notes.bearlythinking.com/*"
+  to = "https://publish.obsidian.md/bearlythinking/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/bearlythinking/*"
   to = "https://publish.obsidian.md/bearlythinking/:splat"
   status = 200
   force = true
 
-# Put all other redirects/rewrites above this line
+#---
 [[redirects]]
   from = "/*"
   to = "/index.html"
