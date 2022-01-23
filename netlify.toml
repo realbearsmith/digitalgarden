@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/notes/*"
+  from = "/notes/"
   to = "https://publish.obsidian.md/bearlythinking/:splat"
   status = 200
   force = true
