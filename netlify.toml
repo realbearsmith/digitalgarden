@@ -3,12 +3,6 @@
   to = "https://publish.obsidian.md/bearlythinking/:splat"
   status = 200
   force = true
-  
-[[redirects]]
-  from = "notes.bearlythinking.com/*"
-  to = "https://publish.obsidian.md/bearlythinking/:splat"
-  status = 301
-  force = true
 
 [[redirects]]
   from = "/bearlythinking/*"
