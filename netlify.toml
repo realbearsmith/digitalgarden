@@ -7,7 +7,7 @@
 [[redirects]]
   from = "notes.bearlythinking.com/*"
   to = "https://publish.obsidian.md/bearlythinking/:splat"
-  status = 200
+  status = 301
   force = true
 
 [[redirects]]
